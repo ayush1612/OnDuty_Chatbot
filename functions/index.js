@@ -10,7 +10,7 @@ const serviceAccount = require('./service.json');
 // admin.initializeApp();
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://policeapp-ec7d4.firebaseio.com"
+  databaseURL: ""
 });
 
 const { SessionsClient } = require('dialogflow');
